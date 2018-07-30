@@ -57,16 +57,16 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
+# disqus_username: sososomeng
 
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
+  clientID: b4dba0854d595e0ffdbf                           #生成的clientID
+  clientSecret: 9bd8e0be784164c52deac710928d3652a5316a67    #生成的clientSecret
   repo: makaruinah.github.io    #仓库名称
   owner: makaruinah    #github用户名
-  admin: qiubaiying
+  admin: makaruinah
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
