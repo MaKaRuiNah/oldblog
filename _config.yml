@@ -18,7 +18,7 @@ sidebar-avatar: /img/manson.jpg      # use absolute URL, seeing it's used in bot
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
+weibo_username:     2150761797
 zhihu_username:     meng-man-92-73
 github_username:    MaKaRuiNah
 facebook_username:  meng.mancheng
