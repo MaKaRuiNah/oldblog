@@ -7,8 +7,7 @@ author:     Manson
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - hdu
-    - bfs
+    - codeforces
 ---
 [http://codeforces.com/contest/999/problem/A](http://codeforces.com/contest/999/problem/A)
 # 问题描述：
