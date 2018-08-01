@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      2018-05-06
+title:      Knight Moves
 subtitle:  Knight Moves（BFS）
 date:       2018-05-06
 author:     Manson
