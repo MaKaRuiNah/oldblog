@@ -1,14 +1,14 @@
 ---
 layout:     post
 title:       Police Station
-subtitle: Police Station-bfs，dfs问题
+subtitle: Police Station-bfs问题
 date:       2018-08-03
 author:     Manson
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
     - codeforces
-    - dfs
+    - bfs
 ---
 [http://codeforces.com/problemset/problem/208/C](http://codeforces.com/problemset/problem/208/C)
 
