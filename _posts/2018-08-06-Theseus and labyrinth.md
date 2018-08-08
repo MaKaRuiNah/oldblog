@@ -67,7 +67,6 @@ It’s guaranteed that both the block where Theseus starts and the block where M
 ```
 /*
 author:Manson
-date:8.6.2018
 theme:Theseus and labyrinth
 */
 #include<bits/stdc++.h>
