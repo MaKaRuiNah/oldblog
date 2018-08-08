@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Theseus and labyrinth
+title:       Theseus and labyrinth
 subtitle: Theseus and labyrinth-bfs问题
 date:       2018-08-06
 author:     Manson
