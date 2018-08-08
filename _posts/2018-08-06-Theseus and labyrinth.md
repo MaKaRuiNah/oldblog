@@ -20,16 +20,27 @@ Theseus is a hero, not a programmer, so he asks you to help him.
 
 **Input**
 
-The first line of the input contains two integers n and m (1 ≤ n, m ≤ 1000) — the number of rows and the number of columns in labyrinth, respectively.
+The first line of the input contains two integers n and m (1 ≤ n, m ≤ 1000) the number of rows and the number of columns in labyrinth, respectively.
 Each of the following n lines contains m characters, describing the blocks of the labyrinth. The possible characters are:
 
-
+«+» means this block has 4 doors (one door to each neighbouring block);
+«-» means this block has 2 doors -to the left and to the right neighbours;
+«|» means this block has 2 doors - to the top and to the bottom neighbours;
+«^» means this block has 1 door - to the top neighbour;
+«>» means this block has 1 door - to the right neighbour;
+«<» means this block has 1 door - to the left neighbour;
+«v» means this block has 1 door - to the bottom neighbour;
+«L» means this block has 3 doors - to all neighbours except left one;
+«R» means this block has 3 doors - to all neighbours except right one;
+«U» means this block has 3 doors - to all neighbours except top one;
+«D» means this block has 3 doors - to all neighbours except bottom one;
+«*» means this block is a wall and has no doors.
 
 Left, right, top and bottom are defined from representing labyrinth as a table, where rows are numbered from 1 to n from top to bottom and columns are numbered from 1 to m from left to right.
 
-Next line contains two integers — coordinates of the block (xT, yT) (1 ≤ xT ≤ n, 1 ≤ yT ≤ m), where Theseus is initially located.
+Next line contains two integers - coordinates of the block (xT, yT) (1 ≤ xT ≤ n, 1 ≤ yT ≤ m), where Theseus is initially located.
 
-Last line contains two integers — coordinates of the block (xM, yM) (1 ≤ xM ≤ n, 1 ≤ yM ≤ m), where Minotaur hides.
+Last line contains two integers - coordinates of the block (xM, yM) (1 ≤ xM ≤ n, 1 ≤ yM ≤ m), where Minotaur hides.
 
 It's guaranteed that both the block where Theseus starts and the block where Minotaur is hiding have at least one door. Theseus and Minotaur may be initially located at the same block.
 
