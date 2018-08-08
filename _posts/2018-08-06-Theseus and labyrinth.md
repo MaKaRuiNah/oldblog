@@ -12,8 +12,18 @@ tags:
 ---
 [https://codeforces.com/contest/676/problem/D](https://codeforces.com/contest/676/problem/D)
 
+# 问题描述
+
+Theseus has just arrived to Crete to fight Minotaur. He found a labyrinth that has a form of a rectangular field of size n × m and consists of blocks of size 1 × 1 Each block of the labyrinth has a button that rotates all blocks 90 degrees clockwise. Each block rotates around its center and doesn't change its position in the labyrinth. Also, each block has some number of doors (possibly none). In one minute, Theseus can either push the button in order to rotate all the blocks 90 degrees clockwise or pass to the neighbouring block. Theseus can go from block A to some neighbouring block B only if block A has a door that leads to block B and block B has a door that leads to block A.
+
+Theseus found an entrance to labyrinth and is now located in block (xT, yT) — the block in the row xT and column yT. Theseus know that the Minotaur is hiding in block (xM, yM) and wants to know the minimum number of minutes required to get there.
+
+Theseus is a hero, not a programmer, so he asks you to help him.
 
 
+**Output**
+
+If Theseus is not able to get to Minotaur, then print -1 in the only line of the output. Otherwise, print the minimum number of minutes required to get to the block where Minotaur is hiding.
 
 
 # 问题分析
