@@ -18,7 +18,20 @@ Each block of the labyrinth has a button that rotates all blocks 90 degrees cloc
 Theseus found an entrance to labyrinth and is now located in block (xT, yT) — the block in the row xT and column yT. Theseus know that the Minotaur is hiding in block (xM, yM) and wants to know the minimum number of minutes required to get there.
 Theseus is a hero, not a programmer, so he asks you to help him.
 
+**Input**
 
+The first line of the input contains two integers n and m (1 ≤ n, m ≤ 1000) — the number of rows and the number of columns in labyrinth, respectively.
+Each of the following n lines contains m characters, describing the blocks of the labyrinth. The possible characters are:
+
+
+
+Left, right, top and bottom are defined from representing labyrinth as a table, where rows are numbered from 1 to n from top to bottom and columns are numbered from 1 to m from left to right.
+
+Next line contains two integers — coordinates of the block (xT, yT) (1 ≤ xT ≤ n, 1 ≤ yT ≤ m), where Theseus is initially located.
+
+Last line contains two integers — coordinates of the block (xM, yM) (1 ≤ xM ≤ n, 1 ≤ yM ≤ m), where Minotaur hides.
+
+It's guaranteed that both the block where Theseus starts and the block where Minotaur is hiding have at least one door. Theseus and Minotaur may be initially located at the same block.
 
 
 **Output**
