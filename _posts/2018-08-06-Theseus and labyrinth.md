@@ -61,5 +61,69 @@ It’s guaranteed that both the block where Theseus starts and the block where M
 # 问题分析
 >问题大意是 主人公从一个起点走到一个终点。每一个点的四周有门或墙，只有两个们相对是才能走通。当然也可以停下一秒，使得所有的门都旋转90°。问从起点到达终点所需要的最短路径。
 >这里我们可以用g[x][y],表示点(x,y)的可走方向。used[x][y][5]表示方向是否走过。然后用bfs可以模拟过程，求出所需的最短时间。
+# AC代码
 
+
+```
+/*
+
+/*
+author:Manson
+date:8.8.2018
+theme:
+*/
+#include<bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+const int N = 50010;
+
+vector<ll>g[N];
+int used[N];
+//dis[i][j]表示 距离点 i 路长为 j 的点 个数 
+ll dis[N][505];
+ll ans;
+int n,k;
+void dfs(int v){
+	
+	int u;
+	memset(dis[v],0,sizeof(dis[v]));
+	dis[v][0] = 1;
+	for(int i = 0;i < g[v].size();i++){
+		u = g[v][i];
+		if(used[u] == 0){
+			used[u] = 1;
+			dfs(u);
+			for(int j = 0;j < k;j++){
+				//距离v点长为j的个数 * 距离u点长为 k-j-1的个数 
+				ans += (dis[v][j]*dis[u][k-j-1]);
+			}
+			//到v点距离为j的点的个数 = 到u点距离为j-1的点的个数 
+			for(int j = 1;j <= k;j++){
+				dis[v][j] += dis[u][j-1];
+			}
+		}
+	}
+}
+
+int main(){
+	ios::sync_with_stdio(false);
+	cin.tie(0);
+	
+	int a,b;
+	cin>>n>>k;
+	for(int i = 0;i < n-1;i++){
+		cin>>a>>b;
+		g[a].push_back(b);
+		g[b].push_back(a);
+	}
+	ans = 0;
+	memset(used,0,sizeof(used));
+	used[1] = 1;
+	dfs(1);
+	cout<<ans<<endl;
+	return 0;
+}
+
+
+```
 
