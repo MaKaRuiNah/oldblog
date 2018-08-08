@@ -65,10 +65,8 @@ It’s guaranteed that both the block where Theseus starts and the block where M
 
 
 ```
-/*
-author:Manson
-theme:Theseus and labyrinth
-*/
+
+
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
