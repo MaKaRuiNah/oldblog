@@ -13,7 +13,8 @@ tags:
 [https://codeforces.com/contest/676/problem/D](https://codeforces.com/contest/676/problem/D)
 
 # 问题描述
-
+Theseus found an entrance to labyrinth and is now located in block (xT, yT) — the block in the row xT and column yT. Theseus know that the Minotaur is hiding in block (xM, yM) and wants to know the minimum number of minutes required to get there.
+Theseus is a hero, not a programmer, so he asks you to help him.
 
 **Input**
 
