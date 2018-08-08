@@ -37,10 +37,6 @@ Each of the following n lines contains m characters, describing the blocks of th
 «*» means this block is a wall and has no doors.
 
 
-**Output**
-
-If Theseus is not able to get to Minotaur, then print -1 in the only line of the output. Otherwise, print the minimum number of minutes required to get to the block where Minotaur is hiding.
-
 
 # 问题分析
 >问题大意是 主人公从一个起点走到一个终点。每一个点的四周有门或墙，只有两个们相对是才能走通。当然也可以停下一秒，使得所有的门都旋转90°。问从起点到达终点所需要的最短路径。
