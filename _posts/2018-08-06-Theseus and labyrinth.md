@@ -62,8 +62,6 @@ It’s guaranteed that both the block where Theseus starts and the block where M
 >问题大意是 主人公从一个起点走到一个终点。每一个点的四周有门或墙，只有两个们相对是才能走通。当然也可以停下一秒，使得所有的门都旋转90°。问从起点到达终点所需要的最短路径。
 >这里我们可以用g[x][y],表示点(x,y)的可走方向。used[x][y][5]表示方向是否走过。然后用bfs可以模拟过程，求出所需的最短时间。
 # AC代码
-
-
 ```
 #include<bits/stdc++.h>
 using namespace std;
