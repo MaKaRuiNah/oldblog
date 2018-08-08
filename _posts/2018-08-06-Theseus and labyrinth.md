@@ -62,11 +62,7 @@ If Theseus is not able to get to Minotaur, then print -1 in the only line of the
 
 ```
 
-/*
-author:Manson
-date:8.6.2018
-theme:Theseus and labyrinth
-*/
+
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
