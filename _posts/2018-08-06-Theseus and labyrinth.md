@@ -36,14 +36,6 @@ Each of the following n lines contains m characters, describing the blocks of th
 «D» means this block has 3 doors - to all neighbours except bottom one;
 «*» means this block is a wall and has no doors.
 
-Left, right, top and bottom are defined from representing labyrinth as a table, where rows are numbered from 1 to n from top to bottom and columns are numbered from 1 to m from left to right.
-
-Next line contains two integers - coordinates of the block (xT, yT) (1 ≤ xT ≤ n, 1 ≤ yT ≤ m), where Theseus is initially located.
-
-Last line contains two integers - coordinates of the block (xM, yM) (1 ≤ xM ≤ n, 1 ≤ yM ≤ m), where Minotaur hides.
-
-It's guaranteed that both the block where Theseus starts and the block where Minotaur is hiding have at least one door. Theseus and Minotaur may be initially located at the same block.
-
 
 **Output**
 
