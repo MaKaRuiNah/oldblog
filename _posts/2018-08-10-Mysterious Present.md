@@ -8,7 +8,7 @@ header-img: img/gakki3.jpg
 catalog: true
 tags:
     - codeforces
-    - 动态规划·
+    - 动态规划
 ---
 [http://codeforces.com/contest/4/problem/D](http://codeforces.com/contest/4/problem/D)
 
