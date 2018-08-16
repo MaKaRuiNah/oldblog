@@ -26,7 +26,7 @@ Lexicographical order is defined in following way. When we compare s and t, firs
 
 The first line contains an integer n (1 ≤ n ≤ 100): number of names.
 
-Each of the following n lines contain one string namei (1 ≤ |namei| ≤ 100), the i-th name. Each name contains only lowercase Latin letters. All names are different.
+Each of the following n lines contain one string namei (1 ≤ namei≤ 100), the i-th name. Each name contains only lowercase Latin letters. All names are different.
 
 **Output**
 
