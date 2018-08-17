@@ -4,7 +4,7 @@ title:      Red and Black
 subtitle: Red and Black-简单dfs
 date:       2018-08-17
 author:     Manson
-header-img: img/gakki4.jpg
+header-img: img/gakki5.jpg
 catalog: true
 tags:
     - hdu
